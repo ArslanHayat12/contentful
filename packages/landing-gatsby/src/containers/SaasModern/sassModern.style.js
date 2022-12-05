@@ -51,13 +51,13 @@ export const GlobalStyle = createGlobalStyle`
               font-size: 18px;
             }
             &:hover {
-              color: #2aa275;
+              color: #1877F2;
             }
             &:before{
               content: '';
               width: 7px;
               height: 7px;
-              background: #2aa275;
+              background: #1877F2;
               border-radius: 50%;
               position: absolute;
               top: 50%;
@@ -68,7 +68,7 @@ export const GlobalStyle = createGlobalStyle`
           }
           &.is-current {
             a {
-              color: #2aa275;
+              color: #1877F2;
               &:before{
                 opacity: 1;
               }
@@ -99,7 +99,7 @@ export const GlobalStyle = createGlobalStyle`
         content: '\f10b';
         font-family: Flaticon;
         font-size: 26px;
-        color: #2aa275;
+        color: #1877F2;
         transform: rotate(45deg);
         display: block;
       }
@@ -125,12 +125,12 @@ export const ContentWrapper = styled.div`
           a {
             color: #000;
             &:hover {
-              color: #2aa275;
+              color: #1877F2;
             }
           }
           &.is-current {
             a {
-              color: #2aa275;
+              color: #1877F2;
             }
           }
         }
@@ -138,7 +138,7 @@ export const ContentWrapper = styled.div`
     }
     .hamburgMenu__bar {
       > span {
-        background: #2aa275;
+        background: #1877F2;
       }
     }
   }

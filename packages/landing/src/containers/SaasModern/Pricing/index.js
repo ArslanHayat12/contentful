@@ -260,7 +260,7 @@ PricingSection.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#2aa275',
+    color: '#1877F2',
     mb: '5px',
   },
   secHeading: {
@@ -316,7 +316,7 @@ PricingSection.defaultProps = {
     pl: '10px',
     pr: '10px',
     bg: '#fff',
-    color: '#2aa275',
+    color: '#1877F2',
     colors: 'primaryWithBg',
     width: '222px',
     maxWidth: '100%',

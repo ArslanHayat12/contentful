@@ -2,11 +2,7 @@ import styled from 'styled-components';
 
 const SectionWrapper = styled.section`
   padding: 100px 0 0 0;
-  background: linear-gradient(
-    35deg,
-    rgb(147, 249, 185) 0%,
-    rgb(29, 151, 108) 100%
-  );
+  background: linear-gradient(35deg, rgb(24, 119, 242) 0%, rgb(16, 178, 248) 100%);
   @media (max-width: 990px) {
     padding: 80px 0 0 0;
   }

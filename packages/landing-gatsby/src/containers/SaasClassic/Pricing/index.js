@@ -295,7 +295,7 @@ PricingSection.defaultProps = {
     pl: '10px',
     pr: '10px',
     bg: '#fff',
-    color: '#2aa275',
+    color: '#1877F2',
     colors: 'primaryWithBg',
     width: '222px',
     maxWidth: '100%',

@@ -48,7 +48,7 @@ const SaasModern = () => {
 
   return !data ? (
     <div style={{display:"flex",justifyContent:"center", alignItems:"center",height:"100vh"}}>
-      <Loader loaderColor={ "#30C56D"} width="100px" height="100px"/>
+      <Loader loaderColor={"#1877F2"} width="100px" height="100px"/>
     </div>
   ) : (
     <ThemeProvider theme={saasModernTheme}>
