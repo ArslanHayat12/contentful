@@ -99,7 +99,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               menuItems={menu||[]}
               offset={-70}
             />
-            <Link href="#">
+            {/* <Link href="#">
               <a className="navbar_button"   style={{ margin: "0 10px" }} >
                 <Button
                   {...button}
@@ -107,7 +107,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                   title="GET STARTED"
                 />
               </a>
-            </Link>
+            </Link> */}
             <Link href="#">
               <a className="navbar_button"   style={{ margin: "0 10px" }}>
                 <Button
@@ -132,7 +132,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 drawerClose={true}
                 offset={-100}
               />
-              <Link href="#"  >
+              {/* <Link href="#"  >
                 <a className="navbar_drawer_button" style={{ margin: "10px 0" }}>
                   <Button
                     {...button}
@@ -140,7 +140,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                     title="GET STARTED"
                   />
                 </a>
-              </Link>
+              </Link> */}
               <Link href="#" >
                 <a className="navbar_drawer_button"  style={{ margin: "10px 0" }}>
                   <Button
